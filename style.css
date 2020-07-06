@@ -1,0 +1,90 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+
+}
+.top{
+    height: 20%;
+    width: 100%;
+    background-color: lightgreen;
+    position: fixed;
+    z-index: -1;
+}
+.chatbox{
+    height:calc(100% - 40px);
+    width: 95%;
+    margin-top: 20px;
+    padding: 0;
+
+}
+.gym_title
+{
+    height: 50px;
+    width: 40px;
+}
+.form-rounded
+{
+    border-radius: 1rem;
+}
+.name
+{
+    font-weight: 400;
+    color: black;
+
+}
+.under-name
+{
+    font-size: 12px;
+    line-height: 15px;
+    max-height: 15px;
+}
+.chat_pic
+{
+    height: 30px;
+    width: 40px;
+}
+.recieve
+{
+    background-color: skyblue;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    color: white;
+    display: inline-block;
+
+}
+.sent
+{
+    background-color: lightgreen;
+    border-radius: 1rem;
+    padding: 10px 15px;
+    color: white;
+    display: inline-block;
+
+}
+.time
+{
+    font-size: 10px;
+    color: black;
+    margin-top: 3%;
+    margin-left: 1%;
+
+}
+.card{
+    height: 94vh;
+
+}
+#messages{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.dropdown-toggle::before{
+    display: none !important;
+}
